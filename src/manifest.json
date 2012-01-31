@@ -1,0 +1,12 @@
+{
+    "name": "SO Green Comments",
+    "version": "1.0",
+    "description": "This extension makes comments in code on stack overflow green",
+    "homepage_url" : "http://stackoverflow.com/users/840973/alex-coplan",
+    "content_scripts" : [{
+	"matches" : ["http://stackoverflow.com/*","http://serverfault.com/*","http://codereview.stackexchange.com/*"],
+	"css" : [
+	"greencomments.css"
+	]
+    }]
+}
